@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+    font-family: "Lexend Zetta", sans-serif;
+}
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+}
