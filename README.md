@@ -1,30 +1,21 @@
-# React + TypeScript + Vite
+# Superent
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ON: https://superent.vercel.app/
 
-Currently, two official plugins are available:
+A superent é uma empresa que faz o aluguel de carros esportivos e MUITO rápidos por sinal!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [x] Página simples e minimalista com design inicial em Figma (https://www.figma.com/design/iYNhWjZMhz1y6AZ2Glipyf/Untitled?node-id=0-1&t=itkUojTgsFsMgQks-1)
+- [x] Navbar fixada ao topo e com opacidade
+- [x] Conteúdo dos carros com height da tela e suas especificações de texto e imagem
+- [ ] Área de bem-vindo
+- [ ] Página de ilustração para o aluguel
 
-## Expanding the ESLint configuration
+Ferramentas utilizadas no projeto:
+- [X] Typescript
+- [X] React - React DOM
+- [X] Tailwind
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Melhorias: 
+- [ ] Alguns visuais como sombreamento
+- [ ] Combinação de fontes
+- [ ] Comentar o código
